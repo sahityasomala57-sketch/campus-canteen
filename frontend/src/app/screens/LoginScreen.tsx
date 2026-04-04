@@ -22,7 +22,7 @@ export default function LoginScreen() {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await fetch(`${BASE_URL}/auth/login`, {
+      const res = await fetch(`${BASE_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username: loginEmail, password: loginPassword })
