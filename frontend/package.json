@@ -70,11 +70,10 @@
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  
   "pnpm": {
     "overrides": {
       "vite": "6.3.5"
